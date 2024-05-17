@@ -1,0 +1,18 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+<!DOCTYPE hibernate-configuration SYSTEM
+        "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+    <session-factory>
+        <property name="hibernate.connection.driver_class">com.mysql.cj.jdbc.Driver</property>
+        <property name="hibernate.connection.url">
+            jdbc:mysql://103.188.82.155:3306/cloud?useUnicode=yes
+        </property>
+        <property name="hibernate.connection.username">doan</property>
+        <property name="hibernate.connection.password">QuangThoi2002@</property>
+        <property name="hibernate.hbm2ddl.auto">update</property>
+        <property name="show_sql">true</property>
+        <property name="format_sql">true</property>
+        <property name="hibernate.connection.pool_size">200</property>
+        <property name="hibernate.jdbc.time_zone">Asia/Ho_Chi_Minh</property>
+    </session-factory>
+</hibernate-configuration>
